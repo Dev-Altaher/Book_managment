@@ -14,4 +14,25 @@
     Private Sub BunifuImageButton3_Click(sender As Object, e As EventArgs) Handles BunifuImageButton3.Click
         Me.WindowState = FormWindowState.Minimized
     End Sub
+
+    Private Sub BunifuImageButton6_Click(sender As Object, e As EventArgs) Handles BunifuImageButton6.Click
+        If P_MB.Size.Width = 237 Then
+            P_MB.Width = 50
+            Button1.RightToLeft = RightToLeft.Yes
+            Button2.RightToLeft = RightToLeft.Yes
+            Button3.RightToLeft = RightToLeft.Yes
+            Button4.RightToLeft = RightToLeft.Yes
+            Button5.RightToLeft = RightToLeft.Yes
+            Button6.RightToLeft = RightToLeft.Yes
+        Else
+            P_MB.Width = 237
+            Button1.RightToLeft = RightToLeft.No
+            Button2.RightToLeft = RightToLeft.No
+            Button3.RightToLeft = RightToLeft.No
+            Button4.RightToLeft = RightToLeft.No
+            Button5.RightToLeft = RightToLeft.No
+            Button6.RightToLeft = RightToLeft.No
+        End If
+    End Sub
+
 End Class

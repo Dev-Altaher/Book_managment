@@ -142,5 +142,14 @@
   <ItemGroup>
     <None Include="Resources\information.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-button %285%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
