@@ -34,5 +34,4 @@
             Button6.RightToLeft = RightToLeft.No
         End If
     End Sub
-
 End Class
