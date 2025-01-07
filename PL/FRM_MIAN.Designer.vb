@@ -253,7 +253,7 @@ Partial Class FRM_MIAN
         Me.Label1.Font = New System.Drawing.Font("Simplified Arabic", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(607, 16)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(60, 32)
+        Me.Label1.Size = New System.Drawing.Size(75, 40)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "الرئيسية"
         '
@@ -454,7 +454,7 @@ Partial Class FRM_MIAN
         Me.Label8.ForeColor = System.Drawing.Color.White
         Me.Label8.Location = New System.Drawing.Point(72, 86)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(60, 56)
+        Me.Label8.Size = New System.Drawing.Size(74, 70)
         Me.Label8.TabIndex = 6
         Me.Label8.Text = "30"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -467,7 +467,7 @@ Partial Class FRM_MIAN
         Me.Label9.ForeColor = System.Drawing.Color.White
         Me.Label9.Location = New System.Drawing.Point(39, 18)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(119, 45)
+        Me.Label9.Size = New System.Drawing.Size(145, 56)
         Me.Label9.TabIndex = 5
         Me.Label9.Text = "المستخدمين"
         '
@@ -490,7 +490,7 @@ Partial Class FRM_MIAN
         Me.Label10.ForeColor = System.Drawing.Color.White
         Me.Label10.Location = New System.Drawing.Point(72, 84)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(60, 56)
+        Me.Label10.Size = New System.Drawing.Size(74, 70)
         Me.Label10.TabIndex = 6
         Me.Label10.Text = "30"
         Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -503,7 +503,7 @@ Partial Class FRM_MIAN
         Me.Label11.ForeColor = System.Drawing.Color.White
         Me.Label11.Location = New System.Drawing.Point(43, 18)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(98, 45)
+        Me.Label11.Size = New System.Drawing.Size(122, 56)
         Me.Label11.TabIndex = 5
         Me.Label11.Text = "الاصناف"
         '
@@ -526,7 +526,7 @@ Partial Class FRM_MIAN
         Me.Label6.ForeColor = System.Drawing.Color.White
         Me.Label6.Location = New System.Drawing.Point(72, 86)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(60, 56)
+        Me.Label6.Size = New System.Drawing.Size(74, 70)
         Me.Label6.TabIndex = 6
         Me.Label6.Text = "30"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -539,7 +539,7 @@ Partial Class FRM_MIAN
         Me.Label7.ForeColor = System.Drawing.Color.White
         Me.Label7.Location = New System.Drawing.Point(17, 23)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(134, 45)
+        Me.Label7.Size = New System.Drawing.Size(163, 56)
         Me.Label7.TabIndex = 5
         Me.Label7.Text = "عدد المبيعات"
         '
@@ -562,7 +562,7 @@ Partial Class FRM_MIAN
         Me.Label12.ForeColor = System.Drawing.Color.White
         Me.Label12.Location = New System.Drawing.Point(72, 84)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(60, 56)
+        Me.Label12.Size = New System.Drawing.Size(74, 70)
         Me.Label12.TabIndex = 6
         Me.Label12.Text = "30"
         Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -575,7 +575,7 @@ Partial Class FRM_MIAN
         Me.Label13.ForeColor = System.Drawing.Color.White
         Me.Label13.Location = New System.Drawing.Point(39, 20)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(93, 45)
+        Me.Label13.Size = New System.Drawing.Size(116, 56)
         Me.Label13.TabIndex = 5
         Me.Label13.Text = "الاستعارة"
         '
@@ -598,7 +598,7 @@ Partial Class FRM_MIAN
         Me.Label4.ForeColor = System.Drawing.Color.White
         Me.Label4.Location = New System.Drawing.Point(72, 86)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(60, 56)
+        Me.Label4.Size = New System.Drawing.Size(74, 70)
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "30"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -611,7 +611,7 @@ Partial Class FRM_MIAN
         Me.Label5.ForeColor = System.Drawing.Color.White
         Me.Label5.Location = New System.Drawing.Point(33, 10)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(124, 45)
+        Me.Label5.Size = New System.Drawing.Size(153, 56)
         Me.Label5.TabIndex = 5
         Me.Label5.Text = "عدد الطلاب"
         '
@@ -634,7 +634,7 @@ Partial Class FRM_MIAN
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(72, 86)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(60, 56)
+        Me.Label3.Size = New System.Drawing.Size(74, 70)
         Me.Label3.TabIndex = 6
         Me.Label3.Text = "30"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -647,7 +647,7 @@ Partial Class FRM_MIAN
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(39, 18)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(110, 45)
+        Me.Label2.Size = New System.Drawing.Size(134, 56)
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "عدد الكتب"
         '
@@ -692,7 +692,7 @@ Partial Class FRM_MIAN
         '
         'FRM_MIAN
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 21.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 27.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1392, 686)
