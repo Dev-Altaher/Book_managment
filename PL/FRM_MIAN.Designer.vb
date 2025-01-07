@@ -341,10 +341,10 @@ Partial Class FRM_MIAN
         Me.P_HOME.Controls.Add(Me.Panel2)
         Me.P_HOME.Controls.Add(Me.Panel1)
         Me.P_HOME.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.P_HOME.Location = New System.Drawing.Point(0, 66)
+        Me.P_HOME.Location = New System.Drawing.Point(0, 0)
         Me.P_HOME.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P_HOME.Name = "P_HOME"
-        Me.P_HOME.Size = New System.Drawing.Size(1171, 620)
+        Me.P_HOME.Size = New System.Drawing.Size(1392, 686)
         Me.P_HOME.TabIndex = 2
         '
         'Button9
@@ -357,7 +357,7 @@ Partial Class FRM_MIAN
         Me.Button9.ForeColor = System.Drawing.Color.Black
         Me.Button9.Image = CType(resources.GetObject("Button9.Image"), System.Drawing.Image)
         Me.Button9.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button9.Location = New System.Drawing.Point(648, 499)
+        Me.Button9.Location = New System.Drawing.Point(759, 565)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(145, 109)
         Me.Button9.TabIndex = 17
@@ -375,7 +375,7 @@ Partial Class FRM_MIAN
         Me.Button12.ForeColor = System.Drawing.Color.Black
         Me.Button12.Image = CType(resources.GetObject("Button12.Image"), System.Drawing.Image)
         Me.Button12.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button12.Location = New System.Drawing.Point(78, 499)
+        Me.Button12.Location = New System.Drawing.Point(189, 565)
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(145, 109)
         Me.Button12.TabIndex = 16
@@ -393,7 +393,7 @@ Partial Class FRM_MIAN
         Me.Button11.ForeColor = System.Drawing.Color.Black
         Me.Button11.Image = CType(resources.GetObject("Button11.Image"), System.Drawing.Image)
         Me.Button11.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button11.Location = New System.Drawing.Point(268, 499)
+        Me.Button11.Location = New System.Drawing.Point(379, 565)
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(145, 109)
         Me.Button11.TabIndex = 15
@@ -410,7 +410,7 @@ Partial Class FRM_MIAN
         Me.Button10.ForeColor = System.Drawing.Color.Black
         Me.Button10.Image = CType(resources.GetObject("Button10.Image"), System.Drawing.Image)
         Me.Button10.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button10.Location = New System.Drawing.Point(458, 499)
+        Me.Button10.Location = New System.Drawing.Point(569, 565)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(145, 109)
         Me.Button10.TabIndex = 14
@@ -427,7 +427,7 @@ Partial Class FRM_MIAN
         Me.Button8.ForeColor = System.Drawing.Color.Black
         Me.Button8.Image = CType(resources.GetObject("Button8.Image"), System.Drawing.Image)
         Me.Button8.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button8.Location = New System.Drawing.Point(838, 499)
+        Me.Button8.Location = New System.Drawing.Point(949, 565)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(145, 109)
         Me.Button8.TabIndex = 12
@@ -441,7 +441,7 @@ Partial Class FRM_MIAN
         Me.Panel4.BackColor = System.Drawing.Color.Navy
         Me.Panel4.Controls.Add(Me.Label8)
         Me.Panel4.Controls.Add(Me.Label9)
-        Me.Panel4.Location = New System.Drawing.Point(589, 241)
+        Me.Panel4.Location = New System.Drawing.Point(700, 274)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(231, 183)
         Me.Panel4.TabIndex = 10
@@ -477,7 +477,7 @@ Partial Class FRM_MIAN
         Me.Panel5.BackColor = System.Drawing.Color.Teal
         Me.Panel5.Controls.Add(Me.Label10)
         Me.Panel5.Controls.Add(Me.Label11)
-        Me.Panel5.Location = New System.Drawing.Point(324, 241)
+        Me.Panel5.Location = New System.Drawing.Point(435, 274)
         Me.Panel5.Name = "Panel5"
         Me.Panel5.Size = New System.Drawing.Size(231, 183)
         Me.Panel5.TabIndex = 9
@@ -513,7 +513,7 @@ Partial Class FRM_MIAN
         Me.Panel3.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Panel3.Controls.Add(Me.Label6)
         Me.Panel3.Controls.Add(Me.Label7)
-        Me.Panel3.Location = New System.Drawing.Point(589, 41)
+        Me.Panel3.Location = New System.Drawing.Point(700, 74)
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(231, 183)
         Me.Panel3.TabIndex = 7
@@ -549,7 +549,7 @@ Partial Class FRM_MIAN
         Me.Panel6.BackColor = System.Drawing.Color.DeepPink
         Me.Panel6.Controls.Add(Me.Label12)
         Me.Panel6.Controls.Add(Me.Label13)
-        Me.Panel6.Location = New System.Drawing.Point(76, 241)
+        Me.Panel6.Location = New System.Drawing.Point(187, 274)
         Me.Panel6.Name = "Panel6"
         Me.Panel6.Size = New System.Drawing.Size(231, 183)
         Me.Panel6.TabIndex = 8
@@ -585,7 +585,7 @@ Partial Class FRM_MIAN
         Me.Panel2.BackColor = System.Drawing.SystemColors.HotTrack
         Me.Panel2.Controls.Add(Me.Label4)
         Me.Panel2.Controls.Add(Me.Label5)
-        Me.Panel2.Location = New System.Drawing.Point(324, 41)
+        Me.Panel2.Location = New System.Drawing.Point(435, 74)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(231, 183)
         Me.Panel2.TabIndex = 7
@@ -621,7 +621,7 @@ Partial Class FRM_MIAN
         Me.Panel1.BackColor = System.Drawing.Color.DeepSkyBlue
         Me.Panel1.Controls.Add(Me.Label3)
         Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Location = New System.Drawing.Point(76, 41)
+        Me.Panel1.Location = New System.Drawing.Point(187, 74)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(231, 183)
         Me.Panel1.TabIndex = 0
@@ -654,10 +654,10 @@ Partial Class FRM_MIAN
         'P_MAIN
         '
         Me.P_MAIN.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.P_MAIN.Location = New System.Drawing.Point(0, 66)
+        Me.P_MAIN.Location = New System.Drawing.Point(0, 0)
         Me.P_MAIN.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.P_MAIN.Name = "P_MAIN"
-        Me.P_MAIN.Size = New System.Drawing.Size(1171, 620)
+        Me.P_MAIN.Size = New System.Drawing.Size(1392, 686)
         Me.P_MAIN.TabIndex = 0
         '
         'BunifuElipse1
@@ -696,10 +696,10 @@ Partial Class FRM_MIAN
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(1392, 686)
-        Me.Controls.Add(Me.P_HOME)
-        Me.Controls.Add(Me.P_MAIN)
         Me.Controls.Add(Me.P_TB)
         Me.Controls.Add(Me.P_MB)
+        Me.Controls.Add(Me.P_HOME)
+        Me.Controls.Add(Me.P_MAIN)
         Me.Font = New System.Drawing.Font("Tahoma", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Margin = New System.Windows.Forms.Padding(5)
