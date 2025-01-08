@@ -1,4 +1,11 @@
-﻿Public Class FRM_MIAN
+﻿Imports System.Linq
+Imports System.Text
+Imports System.Threading.Tasks
+Imports System.Windows.Forms
+Public Class FRM_MIAN
+    Dim State As String
+    Dim ID As Integer
+
     Private Sub BunifuImageButton1_Click(sender As Object, e As EventArgs) Handles BunifuImageButton1.Click
         Environment.Exit(0)
     End Sub
@@ -16,7 +23,7 @@
     End Sub
 
     Private Sub BunifuImageButton6_Click(sender As Object, e As EventArgs) Handles BunifuImageButton6.Click
-        If P_MB.Size.Width = 237 Then
+        If P_MB.Width = 237 Then
             P_MB.Width = 50
             Button1.RightToLeft = RightToLeft.Yes
             Button2.RightToLeft = RightToLeft.Yes
@@ -33,5 +40,18 @@
             Button5.RightToLeft = RightToLeft.No
             Button6.RightToLeft = RightToLeft.No
         End If
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        P_HOME.Visible = False
+        P_MAIN.Visible = True
+        State = "CAT"
+        Lb_Title.Text = "الاصناف"
+    End Sub
+
+    Private Sub FRM_MAIN_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        P_HOME.Visible = True
+        P_MAIN.Visible = False
+        Lb_Title.Text = "الرئيسية"
     End Sub
 End Class
