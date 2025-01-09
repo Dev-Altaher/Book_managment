@@ -92,6 +92,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BL\CLS_CAT.vb" />
     <Compile Include="DAL.vb" />
     <Compile Include="DAL\CLS_DAL.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -140,9 +141,7 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BL\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\minimize-sign.png" />
   </ItemGroup>
