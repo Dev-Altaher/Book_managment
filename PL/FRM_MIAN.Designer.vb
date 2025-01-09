@@ -24,9 +24,9 @@ Partial Class FRM_MIAN
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FRM_MIAN))
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.P_MB = New System.Windows.Forms.Panel()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
@@ -38,7 +38,7 @@ Partial Class FRM_MIAN
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.P_TB = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Lb_Title = New System.Windows.Forms.Label()
         Me.BunifuImageButton5 = New Bunifu.Framework.UI.BunifuImageButton()
         Me.BunifuImageButton4 = New Bunifu.Framework.UI.BunifuImageButton()
         Me.BunifuImageButton3 = New Bunifu.Framework.UI.BunifuImageButton()
@@ -70,20 +70,20 @@ Partial Class FRM_MIAN
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.P_MAIN = New System.Windows.Forms.Panel()
+        Me.Panel9 = New System.Windows.Forms.Panel()
+        Me.BunifuThinButton25 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.BunifuThinButton23 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.BunifuThinButton22 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.BunifuThinButton21 = New Bunifu.Framework.UI.BunifuThinButton2()
+        Me.Panel8 = New System.Windows.Forms.Panel()
+        Me.BunifuMaterialTextbox1 = New Bunifu.Framework.UI.BunifuMaterialTextbox()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.BunifuElipse1 = New Bunifu.Framework.UI.BunifuElipse(Me.components)
         Me.BunifuElipse2 = New Bunifu.Framework.UI.BunifuElipse(Me.components)
         Me.BunifuElipse3 = New Bunifu.Framework.UI.BunifuElipse(Me.components)
         Me.BunifuElipse4 = New Bunifu.Framework.UI.BunifuElipse(Me.components)
         Me.BunifuElipse5 = New Bunifu.Framework.UI.BunifuElipse(Me.components)
         Me.BunifuElipse6 = New Bunifu.Framework.UI.BunifuElipse(Me.components)
-        Me.Panel8 = New System.Windows.Forms.Panel()
-        Me.Panel9 = New System.Windows.Forms.Panel()
-        Me.BunifuMaterialTextbox1 = New Bunifu.Framework.UI.BunifuMaterialTextbox()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.BunifuThinButton21 = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.BunifuThinButton22 = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.BunifuThinButton23 = New Bunifu.Framework.UI.BunifuThinButton2()
-        Me.BunifuThinButton25 = New Bunifu.Framework.UI.BunifuThinButton2()
         Me.P_MB.SuspendLayout()
         CType(Me.BunifuImageButton6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -101,8 +101,8 @@ Partial Class FRM_MIAN
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.P_MAIN.SuspendLayout()
-        Me.Panel8.SuspendLayout()
         Me.Panel9.SuspendLayout()
+        Me.Panel8.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -249,7 +249,7 @@ Partial Class FRM_MIAN
         '
         'P_TB
         '
-        Me.P_TB.Controls.Add(Me.Label1)
+        Me.P_TB.Controls.Add(Me.Lb_Title)
         Me.P_TB.Controls.Add(Me.BunifuImageButton5)
         Me.P_TB.Controls.Add(Me.BunifuImageButton4)
         Me.P_TB.Controls.Add(Me.BunifuImageButton3)
@@ -262,16 +262,16 @@ Partial Class FRM_MIAN
         Me.P_TB.Size = New System.Drawing.Size(1149, 66)
         Me.P_TB.TabIndex = 1
         '
-        'Label1
+        'Lb_Title
         '
-        Me.Label1.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Simplified Arabic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(597, 16)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(82, 41)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "الرئيسية"
+        Me.Lb_Title.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Lb_Title.AutoSize = True
+        Me.Lb_Title.Font = New System.Drawing.Font("Simplified Arabic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Lb_Title.Location = New System.Drawing.Point(597, 16)
+        Me.Lb_Title.Name = "Lb_Title"
+        Me.Lb_Title.Size = New System.Drawing.Size(99, 49)
+        Me.Lb_Title.TabIndex = 0
+        Me.Lb_Title.Text = "الرئيسية"
         '
         'BunifuImageButton5
         '
@@ -687,45 +687,6 @@ Partial Class FRM_MIAN
         Me.P_MAIN.Size = New System.Drawing.Size(1370, 727)
         Me.P_MAIN.TabIndex = 0
         '
-        'BunifuElipse1
-        '
-        Me.BunifuElipse1.ElipseRadius = 5
-        Me.BunifuElipse1.TargetControl = Me
-        '
-        'BunifuElipse2
-        '
-        Me.BunifuElipse2.ElipseRadius = 10
-        Me.BunifuElipse2.TargetControl = Me.Button8
-        '
-        'BunifuElipse3
-        '
-        Me.BunifuElipse3.ElipseRadius = 10
-        Me.BunifuElipse3.TargetControl = Me.Button9
-        '
-        'BunifuElipse4
-        '
-        Me.BunifuElipse4.ElipseRadius = 10
-        Me.BunifuElipse4.TargetControl = Me.Button10
-        '
-        'BunifuElipse5
-        '
-        Me.BunifuElipse5.ElipseRadius = 10
-        Me.BunifuElipse5.TargetControl = Me.Button11
-        '
-        'BunifuElipse6
-        '
-        Me.BunifuElipse6.ElipseRadius = 10
-        Me.BunifuElipse6.TargetControl = Me.Button12
-        '
-        'Panel8
-        '
-        Me.Panel8.Controls.Add(Me.BunifuMaterialTextbox1)
-        Me.Panel8.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Panel8.Location = New System.Drawing.Point(0, 0)
-        Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(1370, 137)
-        Me.Panel8.TabIndex = 0
-        '
         'Panel9
         '
         Me.Panel9.Controls.Add(Me.BunifuThinButton25)
@@ -737,6 +698,119 @@ Partial Class FRM_MIAN
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New System.Drawing.Size(1370, 85)
         Me.Panel9.TabIndex = 1
+        '
+        'BunifuThinButton25
+        '
+        Me.BunifuThinButton25.ActiveBorderThickness = 1
+        Me.BunifuThinButton25.ActiveCornerRadius = 20
+        Me.BunifuThinButton25.ActiveFillColor = System.Drawing.Color.Blue
+        Me.BunifuThinButton25.ActiveForecolor = System.Drawing.Color.White
+        Me.BunifuThinButton25.ActiveLineColor = System.Drawing.Color.SeaGreen
+        Me.BunifuThinButton25.Anchor = System.Windows.Forms.AnchorStyles.Bottom
+        Me.BunifuThinButton25.BackColor = System.Drawing.Color.White
+        Me.BunifuThinButton25.BackgroundImage = CType(resources.GetObject("BunifuThinButton25.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuThinButton25.ButtonText = "تفاصيل"
+        Me.BunifuThinButton25.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuThinButton25.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuThinButton25.ForeColor = System.Drawing.Color.SeaGreen
+        Me.BunifuThinButton25.IdleBorderThickness = 1
+        Me.BunifuThinButton25.IdleCornerRadius = 20
+        Me.BunifuThinButton25.IdleFillColor = System.Drawing.Color.White
+        Me.BunifuThinButton25.IdleForecolor = System.Drawing.Color.SeaGreen
+        Me.BunifuThinButton25.IdleLineColor = System.Drawing.Color.SeaGreen
+        Me.BunifuThinButton25.Location = New System.Drawing.Point(72, 17)
+        Me.BunifuThinButton25.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.BunifuThinButton25.Name = "BunifuThinButton25"
+        Me.BunifuThinButton25.Size = New System.Drawing.Size(238, 53)
+        Me.BunifuThinButton25.TabIndex = 3
+        Me.BunifuThinButton25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'BunifuThinButton23
+        '
+        Me.BunifuThinButton23.ActiveBorderThickness = 1
+        Me.BunifuThinButton23.ActiveCornerRadius = 20
+        Me.BunifuThinButton23.ActiveFillColor = System.Drawing.Color.Red
+        Me.BunifuThinButton23.ActiveForecolor = System.Drawing.Color.White
+        Me.BunifuThinButton23.ActiveLineColor = System.Drawing.Color.SeaGreen
+        Me.BunifuThinButton23.Anchor = System.Windows.Forms.AnchorStyles.Bottom
+        Me.BunifuThinButton23.BackColor = System.Drawing.Color.White
+        Me.BunifuThinButton23.BackgroundImage = CType(resources.GetObject("BunifuThinButton23.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuThinButton23.ButtonText = "حذف"
+        Me.BunifuThinButton23.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuThinButton23.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuThinButton23.ForeColor = System.Drawing.Color.SeaGreen
+        Me.BunifuThinButton23.IdleBorderThickness = 1
+        Me.BunifuThinButton23.IdleCornerRadius = 20
+        Me.BunifuThinButton23.IdleFillColor = System.Drawing.Color.White
+        Me.BunifuThinButton23.IdleForecolor = System.Drawing.Color.SeaGreen
+        Me.BunifuThinButton23.IdleLineColor = System.Drawing.Color.SeaGreen
+        Me.BunifuThinButton23.Location = New System.Drawing.Point(338, 17)
+        Me.BunifuThinButton23.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.BunifuThinButton23.Name = "BunifuThinButton23"
+        Me.BunifuThinButton23.Size = New System.Drawing.Size(238, 53)
+        Me.BunifuThinButton23.TabIndex = 3
+        Me.BunifuThinButton23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'BunifuThinButton22
+        '
+        Me.BunifuThinButton22.ActiveBorderThickness = 1
+        Me.BunifuThinButton22.ActiveCornerRadius = 20
+        Me.BunifuThinButton22.ActiveFillColor = System.Drawing.Color.Yellow
+        Me.BunifuThinButton22.ActiveForecolor = System.Drawing.Color.White
+        Me.BunifuThinButton22.ActiveLineColor = System.Drawing.Color.SeaGreen
+        Me.BunifuThinButton22.Anchor = System.Windows.Forms.AnchorStyles.Bottom
+        Me.BunifuThinButton22.BackColor = System.Drawing.Color.White
+        Me.BunifuThinButton22.BackgroundImage = CType(resources.GetObject("BunifuThinButton22.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuThinButton22.ButtonText = "تعديل"
+        Me.BunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuThinButton22.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuThinButton22.ForeColor = System.Drawing.Color.SeaGreen
+        Me.BunifuThinButton22.IdleBorderThickness = 1
+        Me.BunifuThinButton22.IdleCornerRadius = 20
+        Me.BunifuThinButton22.IdleFillColor = System.Drawing.Color.White
+        Me.BunifuThinButton22.IdleForecolor = System.Drawing.Color.SeaGreen
+        Me.BunifuThinButton22.IdleLineColor = System.Drawing.Color.SeaGreen
+        Me.BunifuThinButton22.Location = New System.Drawing.Point(604, 17)
+        Me.BunifuThinButton22.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.BunifuThinButton22.Name = "BunifuThinButton22"
+        Me.BunifuThinButton22.Size = New System.Drawing.Size(238, 53)
+        Me.BunifuThinButton22.TabIndex = 3
+        Me.BunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'BunifuThinButton21
+        '
+        Me.BunifuThinButton21.ActiveBorderThickness = 1
+        Me.BunifuThinButton21.ActiveCornerRadius = 20
+        Me.BunifuThinButton21.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BunifuThinButton21.ActiveForecolor = System.Drawing.Color.White
+        Me.BunifuThinButton21.ActiveLineColor = System.Drawing.Color.SeaGreen
+        Me.BunifuThinButton21.Anchor = System.Windows.Forms.AnchorStyles.Bottom
+        Me.BunifuThinButton21.BackColor = System.Drawing.Color.White
+        Me.BunifuThinButton21.BackgroundImage = CType(resources.GetObject("BunifuThinButton21.BackgroundImage"), System.Drawing.Image)
+        Me.BunifuThinButton21.ButtonText = "إضافة"
+        Me.BunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuThinButton21.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuThinButton21.ForeColor = System.Drawing.Color.SeaGreen
+        Me.BunifuThinButton21.IdleBorderThickness = 1
+        Me.BunifuThinButton21.IdleCornerRadius = 20
+        Me.BunifuThinButton21.IdleFillColor = System.Drawing.Color.White
+        Me.BunifuThinButton21.IdleForecolor = System.Drawing.Color.SeaGreen
+        Me.BunifuThinButton21.IdleLineColor = System.Drawing.Color.SeaGreen
+        Me.BunifuThinButton21.Location = New System.Drawing.Point(870, 17)
+        Me.BunifuThinButton21.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
+        Me.BunifuThinButton21.Name = "BunifuThinButton21"
+        Me.BunifuThinButton21.Size = New System.Drawing.Size(238, 53)
+        Me.BunifuThinButton21.TabIndex = 3
+        Me.BunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Panel8
+        '
+        Me.Panel8.Controls.Add(Me.BunifuMaterialTextbox1)
+        Me.Panel8.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel8.Location = New System.Drawing.Point(0, 0)
+        Me.Panel8.Name = "Panel8"
+        Me.Panel8.Size = New System.Drawing.Size(1370, 137)
+        Me.Panel8.TabIndex = 0
         '
         'BunifuMaterialTextbox1
         '
@@ -766,143 +840,70 @@ Partial Class FRM_MIAN
         Me.DataGridView1.BackgroundColor = System.Drawing.Color.White
         Me.DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None
-        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle1.Font = New System.Drawing.Font("Tahoma", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Tahoma", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle4
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Segoe UI Variable Display", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridView1.DefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle5.Font = New System.Drawing.Font("Tahoma", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridView1.DefaultCellStyle = DataGridViewCellStyle5
         Me.DataGridView1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DataGridView1.GridColor = System.Drawing.Color.DimGray
         Me.DataGridView1.Location = New System.Drawing.Point(0, 0)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
-        DataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Tahoma", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.RowHeadersDefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter
+        DataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Tahoma", 13.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.RowHeadersDefaultCellStyle = DataGridViewCellStyle6
+        Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 35
         Me.DataGridView1.Size = New System.Drawing.Size(1370, 727)
         Me.DataGridView1.TabIndex = 2
         '
-        'BunifuThinButton21
+        'BunifuElipse1
         '
-        Me.BunifuThinButton21.ActiveBorderThickness = 1
-        Me.BunifuThinButton21.ActiveCornerRadius = 20
-        Me.BunifuThinButton21.ActiveFillColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.BunifuThinButton21.ActiveForecolor = System.Drawing.Color.White
-        Me.BunifuThinButton21.ActiveLineColor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton21.Anchor = System.Windows.Forms.AnchorStyles.Bottom
-        Me.BunifuThinButton21.BackColor = System.Drawing.Color.White
-        Me.BunifuThinButton21.BackgroundImage = CType(resources.GetObject("BunifuThinButton21.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuThinButton21.ButtonText = "إضافة"
-        Me.BunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuThinButton21.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuThinButton21.ForeColor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton21.IdleBorderThickness = 1
-        Me.BunifuThinButton21.IdleCornerRadius = 20
-        Me.BunifuThinButton21.IdleFillColor = System.Drawing.Color.White
-        Me.BunifuThinButton21.IdleForecolor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton21.IdleLineColor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton21.Location = New System.Drawing.Point(870, 17)
-        Me.BunifuThinButton21.Margin = New System.Windows.Forms.Padding(6, 6, 6, 6)
-        Me.BunifuThinButton21.Name = "BunifuThinButton21"
-        Me.BunifuThinButton21.Size = New System.Drawing.Size(238, 53)
-        Me.BunifuThinButton21.TabIndex = 3
-        Me.BunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuElipse1.ElipseRadius = 5
+        Me.BunifuElipse1.TargetControl = Me
         '
-        'BunifuThinButton22
+        'BunifuElipse2
         '
-        Me.BunifuThinButton22.ActiveBorderThickness = 1
-        Me.BunifuThinButton22.ActiveCornerRadius = 20
-        Me.BunifuThinButton22.ActiveFillColor = System.Drawing.Color.Yellow
-        Me.BunifuThinButton22.ActiveForecolor = System.Drawing.Color.White
-        Me.BunifuThinButton22.ActiveLineColor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton22.Anchor = System.Windows.Forms.AnchorStyles.Bottom
-        Me.BunifuThinButton22.BackColor = System.Drawing.Color.White
-        Me.BunifuThinButton22.BackgroundImage = CType(resources.GetObject("BunifuThinButton22.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuThinButton22.ButtonText = "تعديل"
-        Me.BunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuThinButton22.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuThinButton22.ForeColor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton22.IdleBorderThickness = 1
-        Me.BunifuThinButton22.IdleCornerRadius = 20
-        Me.BunifuThinButton22.IdleFillColor = System.Drawing.Color.White
-        Me.BunifuThinButton22.IdleForecolor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton22.IdleLineColor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton22.Location = New System.Drawing.Point(604, 17)
-        Me.BunifuThinButton22.Margin = New System.Windows.Forms.Padding(6)
-        Me.BunifuThinButton22.Name = "BunifuThinButton22"
-        Me.BunifuThinButton22.Size = New System.Drawing.Size(238, 53)
-        Me.BunifuThinButton22.TabIndex = 3
-        Me.BunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuElipse2.ElipseRadius = 10
+        Me.BunifuElipse2.TargetControl = Me.Button8
         '
-        'BunifuThinButton23
+        'BunifuElipse3
         '
-        Me.BunifuThinButton23.ActiveBorderThickness = 1
-        Me.BunifuThinButton23.ActiveCornerRadius = 20
-        Me.BunifuThinButton23.ActiveFillColor = System.Drawing.Color.Red
-        Me.BunifuThinButton23.ActiveForecolor = System.Drawing.Color.White
-        Me.BunifuThinButton23.ActiveLineColor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton23.Anchor = System.Windows.Forms.AnchorStyles.Bottom
-        Me.BunifuThinButton23.BackColor = System.Drawing.Color.White
-        Me.BunifuThinButton23.BackgroundImage = CType(resources.GetObject("BunifuThinButton23.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuThinButton23.ButtonText = "حذف"
-        Me.BunifuThinButton23.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuThinButton23.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuThinButton23.ForeColor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton23.IdleBorderThickness = 1
-        Me.BunifuThinButton23.IdleCornerRadius = 20
-        Me.BunifuThinButton23.IdleFillColor = System.Drawing.Color.White
-        Me.BunifuThinButton23.IdleForecolor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton23.IdleLineColor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton23.Location = New System.Drawing.Point(338, 17)
-        Me.BunifuThinButton23.Margin = New System.Windows.Forms.Padding(6)
-        Me.BunifuThinButton23.Name = "BunifuThinButton23"
-        Me.BunifuThinButton23.Size = New System.Drawing.Size(238, 53)
-        Me.BunifuThinButton23.TabIndex = 3
-        Me.BunifuThinButton23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuElipse3.ElipseRadius = 10
+        Me.BunifuElipse3.TargetControl = Me.Button9
         '
-        'BunifuThinButton25
+        'BunifuElipse4
         '
-        Me.BunifuThinButton25.ActiveBorderThickness = 1
-        Me.BunifuThinButton25.ActiveCornerRadius = 20
-        Me.BunifuThinButton25.ActiveFillColor = System.Drawing.Color.Blue
-        Me.BunifuThinButton25.ActiveForecolor = System.Drawing.Color.White
-        Me.BunifuThinButton25.ActiveLineColor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton25.Anchor = System.Windows.Forms.AnchorStyles.Bottom
-        Me.BunifuThinButton25.BackColor = System.Drawing.Color.White
-        Me.BunifuThinButton25.BackgroundImage = CType(resources.GetObject("BunifuThinButton25.BackgroundImage"), System.Drawing.Image)
-        Me.BunifuThinButton25.ButtonText = "تفاصيل"
-        Me.BunifuThinButton25.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuThinButton25.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuThinButton25.ForeColor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton25.IdleBorderThickness = 1
-        Me.BunifuThinButton25.IdleCornerRadius = 20
-        Me.BunifuThinButton25.IdleFillColor = System.Drawing.Color.White
-        Me.BunifuThinButton25.IdleForecolor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton25.IdleLineColor = System.Drawing.Color.SeaGreen
-        Me.BunifuThinButton25.Location = New System.Drawing.Point(72, 17)
-        Me.BunifuThinButton25.Margin = New System.Windows.Forms.Padding(6)
-        Me.BunifuThinButton25.Name = "BunifuThinButton25"
-        Me.BunifuThinButton25.Size = New System.Drawing.Size(238, 53)
-        Me.BunifuThinButton25.TabIndex = 3
-        Me.BunifuThinButton25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.BunifuElipse4.ElipseRadius = 10
+        Me.BunifuElipse4.TargetControl = Me.Button10
+        '
+        'BunifuElipse5
+        '
+        Me.BunifuElipse5.ElipseRadius = 10
+        Me.BunifuElipse5.TargetControl = Me.Button11
+        '
+        'BunifuElipse6
+        '
+        Me.BunifuElipse6.ElipseRadius = 10
+        Me.BunifuElipse6.TargetControl = Me.Button12
         '
         'FRM_MIAN
         '
@@ -943,8 +944,8 @@ Partial Class FRM_MIAN
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.P_MAIN.ResumeLayout(False)
-        Me.Panel8.ResumeLayout(False)
         Me.Panel9.ResumeLayout(False)
+        Me.Panel8.ResumeLayout(False)
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
@@ -959,7 +960,7 @@ Partial Class FRM_MIAN
     Friend WithEvents BunifuImageButton3 As Bunifu.Framework.UI.BunifuImageButton
     Friend WithEvents BunifuImageButton2 As Bunifu.Framework.UI.BunifuImageButton
     Friend WithEvents BunifuImageButton1 As Bunifu.Framework.UI.BunifuImageButton
-    Friend WithEvents Label1 As Label
+    Friend WithEvents Lb_Title As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents BunifuImageButton6 As Bunifu.Framework.UI.BunifuImageButton
